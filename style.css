@@ -1,0 +1,377 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item a:hover {
+  color: green;
+}
+
+.navbar-brand {
+  height: 50px;
+  width: 90px;
+}
+
+.search {
+  height: 45px;
+  outline: none;
+  border: 2px solid rgb(20, 219, 20);
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+  border-right: none;
+}
+
+.btn1 {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: rgb(20, 219, 20);
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.4s;
+}
+
+.btn1:hover {
+  background-color: rgb(11, 137, 11);
+}
+
+.bi-bag-check {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  padding-top: 5px;
+  transition: all 0.4s;
+}
+
+.bi-bag-check:hover {
+  color: rgb(20, 219, 20);
+}
+
+.navbar-toggler {
+  font-size: 23px;
+  color: black;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.main {
+  background: url(./img/bg.png) no-repeat;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  height: 100vh;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 5rem;
+  font-family: "Righteous", sans-serif;
+}
+
+.main p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+.main p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+
+.mbtn1 {
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 20);
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn1:hover {
+  background-color: rgb(11, 137, 11);
+}
+
+.mbtn2 {
+  height: 50px;
+  width: 25%;
+  outline: none;
+  background-color: transparent;
+  color: rgb(20, 219, 20);
+  border: 1px solid rgb(20, 219, 20);
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn2:hover {
+  background-color: rgb(20, 219, 20);
+  border: none;
+  color: white;
+}
+
+.line {
+  height: 6px;
+  width: 30%;
+  background: rgb(20, 219, 20);
+  display: inline-block;
+}
+
+/* about */
+
+.about {
+  background: url(./img/logo.png) no-repeat;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 50px;
+  width: 100%;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+.about p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+
+/* welcome */
+
+.welcome {
+  background: rgb(20, 219, 20);
+}
+
+.line2 {
+  height: 6px;
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.welcome .card {
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.welcome i {
+  font-size: 45px;
+  color: rgb(20, 219, 20);
+}
+
+.welcome h2 {
+  font-weight: lighter;
+  padding: 10px 0px;
+}
+
+/* product */
+
+.product h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+.product p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+
+.star {
+  text-align: end;
+  color: orange;
+}
+
+.product .card {
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.product .card-body {
+  border: 1px dashed rgb(190, 185, 185);
+}
+
+.head1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.per1 {
+  color: rgb(168, 162, 162);
+}
+
+.btnc {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 20);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+
+.btnc:hover {
+  outline: none;
+  border: 1px solid rgb(20, 219, 20);
+  color: rgb(20, 219, 20);
+  background: transparent;
+  border-radius: 50px;
+}
+
+/* discount */
+
+.discount {
+  background: rgb(20, 219, 20);
+  color: white;
+}
+
+.dbtn {
+  height: 50px;
+  width: 75%;
+  outline: none;
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  transition: all 0.4s;
+}
+
+.dbtn:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+/* store */
+
+.store h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.store p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.store p:nth-child(2) {
+  font-size: 18px;
+  color: grey;
+}
+
+.store i {
+  font-size: 45px;
+}
+
+.store .card {
+  border-radius: 0;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.store .card:hover {
+  background-color: rgb(20, 219, 20);
+  color: white;
+}
+
+.store .card:hover .per1 {
+  color: white;
+}
+
+/* contact */
+.text-contact {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  font-size: 25px;
+}
+
+.form-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-contact input {
+  margin: 15px;
+  padding: 10px 35px;
+  border-radius: 10px;
+}
+
+.form-contact textarea {
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.form-contact button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+}
+
+/* responsive mobile */
+@media screen and (min-width: 600px) {
+}
+@media screen and (max-width: 542px) {
+  .main {
+    background-position-y: 0;
+    background-position-x: center;
+  }
+
+  .about {
+    background-position-y: 150px;
+    background-position-x: center;
+  }
+}
